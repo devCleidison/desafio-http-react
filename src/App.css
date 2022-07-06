@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  gap: 1rem;
+
+  place-content: center;
+  margin-top: 4rem;
+}
+
+.loading {
+  font-size: 1.8rem;
+  display: block;
+  margin-block: 2rem;
+}
+
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 300px;
+  margin: 0 auto;
+
+  background-color: rgb(46, 46, 46);
+
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.add-product form h3 {
+  margin: 0;
+}
+
+.add-product form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  text-align: left;
+}
+
+.add-product form input[type="submit"] {
+  background-color: rgb(1, 211, 1);
+  border: none;
+  border-radius: 0.5rem;;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+.add-product form input[type="submit"]:hover {
+  background-color: rgb(17, 175, 17);
+}
+ 
+.add-product form label input {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+

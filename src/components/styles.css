@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: rgb(46, 46, 46);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  color: rgb(173, 173, 173);
+}
+
+.card input {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(224, 0, 0);
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+.card input:hover {
+  background-color: rgb(192, 0, 0);
+}
